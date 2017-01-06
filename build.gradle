@@ -14,4 +14,7 @@ dependencies {
 
     compile group: 'org.springframework', name: 'spring-websocket', version: '4.3.4.RELEASE'
 
+    compile group: 'org.springframework', name: 'spring-beans', version: '4.3.3.RELEASE'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+
 }
