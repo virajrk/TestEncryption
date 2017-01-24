@@ -18,8 +18,8 @@ public class StrongServer {
     public static void main(String[] args) throws IOException, KeyStoreException, CertificateException, NoSuchAlgorithmException,
             SignatureException, InvalidKeyException {
 
-        String keystoreFile = "";
-        String storePass = "";
+        String keystoreFile = "c:\\windows\\.keystore";
+        String storePass = "password";
 
         int port = 7999;
         ServerSocket serverSocket = new ServerSocket(port);
